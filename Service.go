@@ -9,17 +9,32 @@ import (
 )
 
 const (
-	apiName string = "Skylead"
-	apiPath string = "api/v0"
+	apiName         string = "Skylead"
+	apiPath         string = "https://api.multilead.io/api/open-api/v1"
+	defaultTimeZone string = "Europe/Belgrade"
+)
+
+type Curve int64
+
+const (
+	CurveViews               Curve = 1
+	CurveFollows             Curve = 2
+	CurveConnectionsSent     Curve = 3
+	CurveMessagesSent        Curve = 4
+	CurveEmailsSent          Curve = 5
+	CurveConnectionsAccepted Curve = 6
+	CurveRepliesReceived     Curve = 7
 )
 
 type Service struct {
 	apiKey      string
+	timeZone    string
 	httpService *go_http.Service
 }
 
 type ServiceConfig struct {
-	ApiKey string
+	ApiKey   string
+	TimeZone *string
 }
 
 func NewService(serviceConfig *ServiceConfig) (*Service, *errortools.Error) {
@@ -36,8 +51,14 @@ func NewService(serviceConfig *ServiceConfig) (*Service, *errortools.Error) {
 		return nil, e
 	}
 
+	timeZone := defaultTimeZone
+	if serviceConfig.TimeZone != nil {
+		timeZone = *serviceConfig.TimeZone
+	}
+
 	return &Service{
 		apiKey:      serviceConfig.ApiKey,
+		timeZone:    timeZone,
 		httpService: httpService,
 	}, nil
 }
