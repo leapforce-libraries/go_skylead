@@ -59,8 +59,6 @@ func (service *Service) GetStatistics(config *GetStatisticsConfig) (map[string][
 		ResponseModel: &result,
 	}
 
-	fmt.Println(requestConfig.Url)
-
 	_, _, e := service.httpRequest(&requestConfig)
 	if e != nil {
 		return nil, e
