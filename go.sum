@@ -175,7 +175,6 @@ github.com/golang/protobuf v1.5.0/go.mod h1:FsONVRAS9T7sI+LIUmWTfcYkHO4aIWwzhcaS
 github.com/golang/protobuf v1.5.1/go.mod h1:DopwsBzvsk0Fs44TXzsVbJyPhcCPeIwnvohx4u74HPM=
 github.com/golang/protobuf v1.5.2 h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=
 github.com/golang/protobuf v1.5.2/go.mod h1:XVQd3VNwM+JqD3oG2Ue2ip4fOMUkwXdXDdiuN0vRsmY=
-github.com/golang/snappy v0.0.3 h1:fHPg5GQYlCeLIPB9BZqMVR5nR9A+IM5zcgeTdjMYmLA=
 github.com/golang/snappy v0.0.3/go.mod h1:/XxbfmMg8lxefKM7IXC3fBNl/7bRcc72aCRzEWrmP2Q=
 github.com/gomodule/redigo v1.7.1-0.20190724094224-574c33c3df38/go.mod h1:B4C85qUVwatsJoIUNIfCRsp7qO0iAmpGFZ4EELWSbC4=
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
@@ -287,8 +286,8 @@ github.com/leapforce-libraries/go_http v0.0.0-20210326105232-ecf506e03a53/go.mod
 github.com/leapforce-libraries/go_http v0.0.0-20210713192036-b809589a39a5/go.mod h1:oLjyrzaC0GhA55yFJ5Dlb5eOR1ASojX9tKxLIOlPXtY=
 github.com/leapforce-libraries/go_http v0.0.0-20211007104330-25a0057f4099/go.mod h1:9ufsotcoNd0bg5RmE+5IBYI4mJ6kYSU42/ndthZwRvo=
 github.com/leapforce-libraries/go_http v0.0.0-20211202234851-eaff78430048/go.mod h1:Hk8mZd9YOzWWbriAKMW3hI3YHFgIA5vfAcM0tHNGOng=
-github.com/leapforce-libraries/go_http v0.0.0-20220220164354-4e802194f983 h1:Vgk0RT9lGVwPHXch9PKOtVHaXzdQO7KH+RwePy1MmlQ=
-github.com/leapforce-libraries/go_http v0.0.0-20220220164354-4e802194f983/go.mod h1:BdsyzkCM14+6ttZ5POnQGLnBXykZS8miN4VXiOGaHWY=
+github.com/leapforce-libraries/go_http v0.0.0-20220406191830-0235c3965bb8 h1:/Fi0RO9gKH9wPVRZ2WPZy5mV/tKyxlXmLoY5NDvg1eM=
+github.com/leapforce-libraries/go_http v0.0.0-20220406191830-0235c3965bb8/go.mod h1:BdsyzkCM14+6ttZ5POnQGLnBXykZS8miN4VXiOGaHWY=
 github.com/leapforce-libraries/go_integration v0.0.0-20210526180733-68a2aeb4410c/go.mod h1:H66cM421lWMH1xyiirtH5nhs5U8NPFH6U3UsfaGv+Is=
 github.com/leapforce-libraries/go_integration v0.0.0-20210920180622-04fe815f1d5e/go.mod h1:0HIZl1eBAV9R/vLblAWcdXovU2P+B2JoZFimOwKHHwk=
 github.com/leapforce-libraries/go_integration v0.0.0-20211202143017-7c688c1b744e/go.mod h1:6g4cHCeqxEvzUrBt7iD8nMrhcyj1G69itvMpTKFwbgY=
