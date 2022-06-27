@@ -21,6 +21,7 @@ type Message struct {
 	Dashboard      int64           `json:"dashboard"`
 	CampaignId     int64           `json:"campaignId"`
 	SeenAt         int64           `json:"seenAt"`
+	CreatedAt      int64           `json:"createdAt"`
 	MessageStatus  string          `json:"messageStatus"`
 	MessageType    string          `json:"messageType"`
 }
